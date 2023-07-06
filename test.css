@@ -1,7 +1,13 @@
 *{
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
 }
-h1{
-    margin: 30%;
+.test{
+    color: aqua;
+    background-color: black;
+    border: 2px solid red;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+
 }
