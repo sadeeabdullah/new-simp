@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color:blueviolet;
+    height: 55px;
+    padding: 15px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo-photo{
+    height: 70px;
+    width: 170px;
+    margin-left: 150px;
+}
+.menus{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item{
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(248, 245, 245);
+    background-color: rgb(12, 12, 12);
+    border: 2px solid rgb(243, 238, 238);
+    border-radius: 30px;
+    padding: 15px;
+    border-style:outset;
+    
+}
+.photo{
+    width: 550px;
+}
+.banner{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./image/bannerbg.jpg);
+}
+.title{
+    font-size: 43px;
+    font: weight 1100px;
+    color: rgb(23, 23, 143);
+}
+.lol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-size: 21px;
+}
+
+.but{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    color: bisque;
+}

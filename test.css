@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 .test{
     color: aqua;
     background-color: black;
@@ -10,4 +7,21 @@
     cursor: pointer;
     border-radius: 20px;
 
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    
+    background-color: aqua;
+    width: 120px;
+
+}
+.box1{
+    background-color: rgb(168, 16, 16);
+}
+.box2{
+    background-color: green;
 }
